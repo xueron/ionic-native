@@ -1,6 +1,6 @@
 import { Plugin, Cordova } from './plugin';
 /**
- * @name AppUpdate
+ * @name App Update
  * @description
  *  This plugin is used for app update.
  *
@@ -35,6 +35,6 @@ export class AppUpdate {
    * @returns {Promise<any>} Returns a Promise that resolves with the success return, or rejects with an error.
    */
   @Cordova()
-  static checkAppUpdate(string: updateUrl): Promise<any> { return; }
+  static checkAppUpdate(updateUrl: string): Promise<any> { return; }
 }
 
