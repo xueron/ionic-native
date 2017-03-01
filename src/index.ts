@@ -123,6 +123,7 @@ import { Vibration } from './plugins/vibration';
 import { VideoEditor } from './plugins/video-editor';
 import { VideoPlayer } from './plugins/video-player';
 import { WebIntent } from './plugins/webintent';
+import { Wxpay} from './plugins/wxpay';
 import { YoutubeVideoPlayer } from './plugins/youtube-video-player';
 import { ZBar } from './plugins/z-bar';
 import { Zip } from './plugins/zip';
@@ -250,6 +251,7 @@ export * from './plugins/webintent';
 export * from './plugins/youtube-video-player';
 export * from './plugins/z-bar';
 export * from './plugins/zip';
+export * from './plugins/wxpay';
 
 // Window export to use outside of a module loading system
 window['IonicNative'] = {
@@ -373,6 +375,7 @@ window['IonicNative'] = {
   VideoPlayer,
   Vibration,
   WebIntent,
+  Wxpay,
   YoutubeVideoPlayer,
   ZBar,
   Zip
